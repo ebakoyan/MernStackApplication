@@ -1,0 +1,51 @@
+.container {
+  margin: 10px;
+  background-color: #fff;
+  width: 320px;
+  position: relative;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.container .background {
+  border-radius: 5px;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  z-index: 11;
+  background-color: rgba(0, 0, 0, 0.493);
+}
+
+.container .title {
+  color: white;
+  z-index: 12;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.container .body {
+  position: relative;
+}
+
+.container .body .back {
+  position: relative;
+}
+
+.container .body .creator {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  z-index: 12;
+  right: 5px;
+}
+
+.container .body img {
+  z-index: 9;
+  opacity: 0.8;
+  border-radius: 5px;
+  width: 300px;
+}
+/*# sourceMappingURL=Card.module.css.map */
